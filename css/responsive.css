@@ -1,10 +1,6 @@
-
-
-
 /*
  ---- WIDTH 1200PX ---- 
 */
-
 
 @media screen and (max-width: 1200px){
 
@@ -15,10 +11,13 @@
         font-size: 1.1em;
     }
 
-    .logo a img{
+    .logo img{
         padding-left: 15px;
     }
 
+    .fa-bars{
+        font-size: 1.6em;
+    }
 
     /* --- INDEX.HTML --- */
 
@@ -137,7 +136,7 @@
         font-size: 0.9em;
     }
 
-    .logo a img{
+    .logo  img{
         height: 50px;
         padding-left: 10px;
     }
@@ -250,8 +249,8 @@
         flex-direction: column;
     }
 
-    .logo a img{
-        padding: 0 10px
+    .logo img{
+        padding: 0 0;
     }
 
     nav .burger {
@@ -471,6 +470,132 @@
     }
 
 }
+
+/*--- 320px ---*/
+
+@media screen and (max-width: 320px){
+    
+    .pagetop{
+        flex-direction: column;
+    }
+
+    .logo img{
+        height: 70px;
+        width: 200px;
+        padding: 0 0;
+    }
+
+    .fa-bars{
+        font-size: 1.2em;
+    }
+
+    .content .prezsite h1{
+        display: none;
+    }
+
+    .contacteznous{
+        display: none;
+    }
+
+
+    /* --- INDEX --- */
+
+    .obj1{
+        width: 100%;
+    }
+
+    .obj2{
+        width: 100%;
+    }
+
+    .obj3{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    article h4{
+        font-size: 1.3em;
+    }
+
+    article p{
+        font-size: 1em;
+    }
+
+
+    /* footer */
+
+    .copyright{
+        font-size: 0.7em;
+    }
+
+    .footer{
+        padding-right: 5px;
+    }
+
+    .footer ul li a{
+        font-size: 0.7em;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+
+    /* --- PRESTATIONS --- */
+
+    .blueblockpresta{
+        font-size: 1.2em;
+        width: 75%;
+    }
+
+
+    /* --- REALISATIONS --- */
+
+    .realbloc{
+        width: 100%;
+    }
+
+
+    /* --- CONTACT --- */
+
+    .desccontact{
+        padding: 0;
+        padding: 6px;
+    }
+
+    .desccontact p{
+        font-size: 1em;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .formulaire{
+        padding: 0;
+        margin: 0;
+    }
+
+    /* --- DEVIS --- */
+
+    .descdevis{
+        padding-left: 8px;
+    }
+
+    .descdevis p{
+        font-size: 1em;
+    }
+
+    
+}
+
+
+  
+
+
+
+
 
 /* ---- PRINT ---- */
 
