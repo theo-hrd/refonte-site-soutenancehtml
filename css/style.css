@@ -346,7 +346,8 @@ aside{
 
 .blueblockbg{
     display: block;
-    padding-top: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: #252526;
 }
 

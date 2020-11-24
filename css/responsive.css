@@ -269,9 +269,11 @@
     }
     
     .content .prezsite h1{
-
+        text-align: center;
         top: 350px;
+        width: 100%;
         font-size: 3em;
+        padding: 0;
     }
 
     .contacteznous{
@@ -292,17 +294,20 @@
     .obj1{
         margin-bottom: 15px;
         font-size: 0.9em;
+        width: 70%;
     }
 
     .obj2{
         margin-bottom: 15px;
         font-size: 0.9em;
+        width: 70%;
     }
 
 
     .obj3{
         margin-bottom: 15px;
         font-size: 0.9em;
+        width: 70%;
     }
 
 
@@ -357,6 +362,11 @@
     .imgreal h1{
         display: none;
     }
+
+    .realbloc{
+        width: 80%;
+    }
+
 
     /* --- CONTACT.HTML --- */
 
@@ -586,12 +596,106 @@
 }
 
 
+/* ---- WIDTH 425px ---- */
+@media screen and (max-width: 425px) {
+
+    .content .prezsite h1{
+        display: none;
+    }
+
+    .contacteznous{
+        display: none;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    .obj1{
+        width: 90%;
+    }
+
+    .obj2{
+        width: 90%;
+    }
+
+    .obj3{
+        width: 90%;
+    }
+
+    /* footer */
+
+    .copyright{
+        font-size: 0.7em;
+    }
+
+    .footer{
+        padding-right: 5px;
+    }
+
+    .footer ul li a{
+        font-size: 0.9em;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    .blueblockpresta{
+        font-size: 1.2em;
+        width: 75%;
+    }
+
+    /* --- CONTACT --- */
+
+    .desccontact{
+        padding: 0;
+        padding: 6px;
+    }
+
+    .desccontact p{
+        font-size: 1em;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .formulaire{
+        padding: 0;
+        margin: 0;
+    }
+
+    /* --- DEVIS --- */
+
+    .descdevis{
+        padding-left: 8px;
+    }
+
+    .descdevis p{
+        font-size: 1em;
+    }  
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 /* ---- PRINT ---- */
 
 @media print{
 
     /*  contact.html */
-    
+
     .imgcontact img{
         display: none;
     }
@@ -642,11 +746,3 @@
         display: none;
     }
 }
-
-
-
-
-
-
-
-
