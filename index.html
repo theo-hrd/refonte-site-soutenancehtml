@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="sono56" content="Darkness Sono, sono de prestige">
     <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="css/responsive.css"> <!-- feuille de style pour le responsive-->
+    <link rel="stylesheet" href="css/responsive.css"> <!-- stylesheet for responsive-->
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
@@ -126,20 +127,48 @@
             </article>
 
         </section>
-
-        <!-- slider photos -->
-        <div class="picsliderbg">
-            <div class="picslider">
-                <div class="slides">
-                    <img src="images/sonomer.jpg" alt="sonorisation sur la plage">
-                    <img src="images/sonoconcert.jpg" alt="sonorisation concert">
-                    <img src="images/amis.jpg" alt="fête amis">
-                    <img src="images/tablemix.jpg" alt="table de mixage">
-                    <img src="images/mix-analo.jpg" alt="table mixage analogique">
-                    <img src="images/consolepotards.jpg" alt="table mixage analogique potards">
-                    <img src="images/speaker.jpg" alt="speaker">
-                    <img src="images/platine.jpg" alt="platine">
-                </div>
+        <div class="backgroundbody">
+            <!-- slider -->
+            <div id="content-slider">
+                <div class="wrap-slider">	
+                
+                    <!-- inputs buttons -->			
+                        <input type="radio" id="a-1" name="a" >			
+                        <input type="radio" id="a-2" name="a" >			
+                        <input type="radio" id="a-3" name="a" >
+                        <input type="radio" id="a-4" name="a" >
+        
+                    <!-- button displays -->
+                    <nav id="main">
+                        <label for="a-1" class="first"></label>
+                        <label for="a-2" class="first"></label>
+                        <label for="a-3" class="first"></label>
+                        <label for="a-4" class="first"></label>
+                    </nav>
+            
+                    <!-- images slider -->							
+                    <div class="slider">
+                        <div class="inset">
+                
+                            <figure>
+                                <img src="images/mix-analo.jpg" alt="" id="i-1" class="f">						
+                            </figure>
+                    
+                            <figure>
+                                <img src="images/tablemix.jpg" alt="" id="i-2" class="f">						
+                            </figure>
+                    
+                            <figure>
+                                <img src="images/dj.jpg" alt="" id="i-3" class="f">						
+                            </figure>
+                    
+                            <figure>
+                                <img src="images/sonoconcert.jpg" alt="" id="i-4" class="f">						
+                            </figure>
+                        </div>
+                    </div>					
+            
+                </div>		
             </div>
         </div>
     </main>

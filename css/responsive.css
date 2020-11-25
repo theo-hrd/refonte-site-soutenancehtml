@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /* ---- WIDTH 1200PX ---- */
 
 @media screen and (max-width: 1200px){
@@ -404,7 +410,7 @@
         font-size: 1em;
     }
 
-    /* --- DEVIS --- */
+    /* --- DEVIS.HTML --- */
 
     .imgdevis h1{
         display: none;
@@ -443,7 +449,7 @@
     }
 
 
-    /* --- MENTIONS LEGALES --- */
+    /* --- MENTIONS.HTML --- */
 
     .mentionslegales h3{
         text-align: center;
@@ -482,6 +488,7 @@
 
 @media screen and (max-width: 320px){
     
+    /* --- INDEX.HTML --- */
     .pagetop{
         flex-direction: column;
     }
@@ -503,9 +510,6 @@
     .contacteznous{
         display: none;
     }
-
-
-    /* --- INDEX --- */
 
     .obj1{
         width: 100%;
@@ -530,7 +534,6 @@
     article p{
         font-size: 1em;
     }
-
 
     /* footer */
 
@@ -557,14 +560,14 @@
     }
 
 
-    /* --- REALISATIONS --- */
+    /* --- REALISATIONS.HTML --- */
 
     .realbloc{
         width: 100%;
     }
 
 
-    /* --- CONTACT --- */
+    /* --- CONTACT.HTML --- */
 
     .desccontact{
         padding: 0;
@@ -599,6 +602,8 @@
 /* ---- WIDTH 425px ---- */
 @media screen and (max-width: 425px) {
 
+
+    /* --- INDEX.HTML ---*/
     .content .prezsite h1{
         display: none;
     }
@@ -644,7 +649,7 @@
         width: 75%;
     }
 
-    /* --- CONTACT --- */
+    /* --- CONTACT.HTML --- */
 
     .desccontact{
         padding: 0;
@@ -664,7 +669,7 @@
         margin: 0;
     }
 
-    /* --- DEVIS --- */
+    /* --- DEVIS.HTML --- */
 
     .descdevis{
         padding-left: 8px;
@@ -673,21 +678,7 @@
     .descdevis p{
         font-size: 1em;
     }  
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
 
 
 /* ---- PRINT ---- */
