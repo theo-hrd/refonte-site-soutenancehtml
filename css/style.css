@@ -235,44 +235,6 @@ i{
 }
 
 
-/* slider */
-
-@keyframes slidy {
-    0% { left: 0%; }
-    20% { left: 0%; }
-    40% {left: -100%; }
-    60% { left: -200%; }
-    80% { left: -300%; }
-    100% { left: 0%; }
-}
-
-.picsliderbg{
-    background-color: #2d2d30;
-    padding: 30px 4px;
-}
-
-.picslider{
-    overflow: hidden;
-}
-
-.picslider .slides{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    text-align: left;
-    font-size: 0;
-    animation: 30s slidy infinite;
-    -webkit-animation: 30s slidy infinite;
-}
-
-.picslider img{ 
-    float: left;
-    height: 600px;
-    width: 10%;
-}
-
-
 /* --- aside --- */
 
 

@@ -628,6 +628,12 @@
         width: 90%;
     }
 
+    /* slider */
+
+    nav#main{
+        display: none;
+    }
+
     /* footer */
 
     .copyright{
