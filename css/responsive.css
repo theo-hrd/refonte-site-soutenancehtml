@@ -1,9 +1,4 @@
 
-
-
-
-
-
 /* ---- WIDTH 1200PX ---- */
 
 @media screen and (max-width: 1200px){
@@ -702,7 +697,7 @@
     }
 
     .logo a img{
-        background-color: grey;
+        display: none;
     }
 
     nav{
