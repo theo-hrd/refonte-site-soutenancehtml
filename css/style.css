@@ -237,7 +237,6 @@ i{
 
 /* --- aside --- */
 
-
 aside{
     background-color: #000000;
     display: flex;
@@ -262,7 +261,6 @@ aside{
     padding-top: 12px;
     padding-bottom: 10px;
 }
-
 
 /* footer */
 
@@ -570,6 +568,8 @@ textarea{
     text-transform: uppercase;
 }
 
+/* tableau tarifs */
+
 #location{
     width: 100%;
     border-collapse: collapse;
@@ -658,11 +658,11 @@ textarea{
 }
 
 .plandusite{
-        padding: 0 40px;
-        padding-bottom: 40px;
-        background-color: #3b3b3b;
-        font-family: 'Roboto', 'sans-serif';
-        color: white;  
+    padding: 0 40px;
+    padding-bottom: 40px;
+    background-color: #3b3b3b;
+    font-family: 'Roboto', 'sans-serif';
+    color: white;  
 }
 
 .plandusite h2{
