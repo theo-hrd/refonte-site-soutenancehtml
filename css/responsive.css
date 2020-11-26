@@ -726,6 +726,10 @@
         display: none;
     }
 
+    .devis{
+        align-items: center;
+    }
+
     #location{
         color: black;
     }

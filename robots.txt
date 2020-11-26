@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://darkness-sono.netlify.app/sitemap.xml
