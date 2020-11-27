@@ -321,6 +321,14 @@
     }
 
 
+    #content-slider label.first{
+        width: 12px;
+        height: 12px;
+        margin: 0 6px;
+    }
+
+
+
     /* --- FOOTER --- */
 
     .copyright{
