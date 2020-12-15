@@ -680,6 +680,17 @@
     }  
 }
 
+@media screen and (max-width:720px) and (min-width: 426px) {
+
+    .content .prezsite h1{
+        display: none;
+    }
+
+    .contacteznous {
+        display: none;
+    }
+}
+
 
 /* ---- PRINT ---- */
 
