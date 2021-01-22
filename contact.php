@@ -1,51 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="sono56" content="Darkness Sono, sono de prestige">
-    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-    <!-- <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css"> -->
-    <link rel="stylesheet" href="css/main.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title> Darkness Sono, sonorisation de prestige.</title>
-</head>
-
-<body>
-
-    <header>
-
-        <!-- logo renvoyant à la page d'accueil -->
-
-        <div class="pagetop">
-
-            <div class="logo">
-                <a href="index.html"><img src="images/logo2max.png" alt="logo"></a>
-            </div>
-
-            <nav>
-                <div class="burger">
-                    <i class="fas fa-bars"></i>
-                </div>
-
-                <ul>
-                    <li><a href="prestations.html"> nos prestations </a></li>
-                    <li><a href="realisations.html"> nos réalisations </a></li>
-                    <li><a href="contact.html"> contact </a></li>
-                    <li><a href="devis.html"><span class="blueblock">devis gratuit</span></a></li>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
-
-
-
+<?php
+    include 'layouts/header.php';
+?>
 
 <body>
 
@@ -118,27 +73,9 @@
         </div>
 
 
-        <!-- footer -->
-        <aside>
 
-            <div class="copyright">
-                <p> Théo Hérédia 2020 &copy; </p>
-            </div>
-
-            <div class="footer">
-                <ul>
-                    <li><a href="mentions.html">Mentions légales</a></li>
-                    <li><a href="plan.html">Plan du site</a></li>
-                </ul>
-            </div>
-
-        </aside>
-    </div>
-</body>
-
-<footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-    <script src="scripts/burger.js" defer></script>
-</footer>
-
+    <?php
+        include 'layouts/footer.php'
+    ?>
+    
 </html>

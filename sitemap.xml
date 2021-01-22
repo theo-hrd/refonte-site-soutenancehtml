@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-    <loc>https://darkness-sono.netlify.app/index.html</loc>
+    <loc>https://darkness-sono.netlify.app/index.php</loc>
 </url>
 <url>
-    <loc>https://darkness-sono.netlify.app/prestations.html</loc>
+    <loc>https://darkness-sono.netlify.app/prestations.php</loc>
 </url>
 <url>
-    <loc>https://darkness-sono.netlify.app/realisations.html</loc>
+    <loc>https://darkness-sono.netlify.app/realisations.php</loc>
 </url>
 <url>
-    <loc>https://darkness-sono.netlify.app/contact.html</loc>
+    <loc>https://darkness-sono.netlify.app/contact.php</loc>
 </url>
 <url>
-    <loc>https://darkness-sono.netlify.app/devis.html</loc>
+    <loc>https://darkness-sono.netlify.app/devis.php</loc>
 </url>
 <url>
-    <loc>https://darkness-sono.netlify.app/plan.html</loc>
+    <loc>https://darkness-sono.netlify.app/plan.php</loc>
 </url>
 <url>
-    <loc>https://darkness-sono.netlify.app/mentions.html</loc>
+    <loc>https://darkness-sono.netlify.app/mentions.php</loc>
 </url>
 </urlset>
