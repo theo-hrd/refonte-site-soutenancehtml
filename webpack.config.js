@@ -5,7 +5,8 @@ module.exports = {
   entry: [
   './src/apifetch.js',
   './src/burger.js',
-  './src/slackMsg.js'
+  './src/slackMsg.js',
+  'src/auth.js'
   ],
   module: {
     rules: [

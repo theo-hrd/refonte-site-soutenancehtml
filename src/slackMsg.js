@@ -1,5 +1,7 @@
-let button = document.querySelector("#submit");
+import getAuth from "./auth.js";
+const token = getAuth();
 
+let button = document.querySelector("#submit");
 
 button.addEventListener('click', function(){
     let firstName = document.querySelector("#firstname").value; //prénom
@@ -12,7 +14,7 @@ button.addEventListener('click', function(){
     fetch ('https://slack.com/api/chat.postMessage',{
         method: 'POST',
     headers: new Headers({
-        'Authorization': `${secrets.SECRET_TOKEN}`,
+        'Authorization': token,
         'Content-type': 'application/json'
     }),
     body: JSON.stringify({"channel":"C01JQDF93K7","text":`NOUVEAU CONTACT: \n\n Nom:${lastName} \n Prénom:${firstName} \n Email: ${emailName} \n Adresse: ${personAdress} \n Message: ${messageForm}`})
