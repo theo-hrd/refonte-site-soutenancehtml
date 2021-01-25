@@ -38,39 +38,41 @@
                         aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
-
             </div>
 
             <!-- formulaire -->
             <div class="formulaire">
-                <form action="coordonees.php" method="post">
-
+                <form>
 
                     <h2> Vos coordonnées&nbsp;</h2><i class="fal fa-horizontal-rule"></i>
 
                     <div class="formulairearea">
 
-                        <p> <input type="text" name="nom" id="nom" placeholder="&nbsp;Nom & Prénom"> </p>
+                        <p> <input type="text" name="last name" id="lastname" placeholder="&nbsp;Votre nom"> </p>
+                        
+                        <p> <input type="text" name="firstname" id="firstname" placeholder="&nbsp;Votre prénom"> </p>
 
                         <p> <input type="email" name="email" id="email" placeholder="&nbsp;Votre E-Mail"></p>
 
-                        <p> <input type="text" name=adresse id="adresse" placeholder="&nbsp;Votre adresse:"> </p>
+                        <p> <input type="text" name="adresse" id="adresse" placeholder="&nbsp;Votre adresse:"> </p>
+                        <p> <ul id='result'></ul> </p>
 
-                        <p> <input type="text" name=sujet id="sujet" placeholder="&nbsp;Quel est le sujet ?"> </p>
+                        <p> <input type="text" name="sujet" id="sujet" placeholder="&nbsp;Quel est le sujet ?"> </p>
 
                         <textarea name="message" id="message" maxlength="200"
-                            placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Votre messsage (maximum 200 caractères)"></textarea>
-                        <br>
+                            placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Votre messsage (maximum 200 caractères)"></textarea> <br>
 
                         <input type="checkbox" id="cdu" name="cdu" unchecked>
-                        <label for="cdu"><a href="mentions.html"> En cochant cette case, vous acceptez les conditions
-                                générales d'utilisation.</a></label> <br> <br>
-
-                        <input class="envoyer" type="submit" value="envoyer">
+                        <label for="cdu"><a href="mentions.php"> En cochant cette case, vous acceptez les conditions générales d'utilisation.</a></label> <br> <br>
+                        
+                        <!-- préciser type button pour bien envoyer -->
+                        <button type="button" class="envoyer" id="submit"> envoyer </button>
+                    
                     </div>
 
                 </form>
             </div>
+        
         </div>
 
 
