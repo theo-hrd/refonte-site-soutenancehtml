@@ -19,17 +19,6 @@ eval("document.querySelector('#adresse').addEventListener('keyup', function () {
 
 /***/ }),
 
-/***/ "./src/auth.js":
-/*!*********************!*\
-  !*** ./src/auth.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => /* binding */ getAuth\n/* harmony export */ });\nfunction getAuth() { \r\n    return \"Bearer xoxb-1652171658561-1652275885569-0Oa9xK6EypT1HOx6tVcirXqe\";\r\n}\n\n//# sourceURL=webpack://refonte-site-soutenancehtml/./src/auth.js?");
-
-/***/ }),
-
 /***/ "./src/burger.js":
 /*!***********************!*\
   !*** ./src/burger.js ***!
@@ -47,7 +36,7 @@ eval("$(document).ready(function(){$(\".burger\").click(function(){$(\"nav ul\")
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _auth_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./auth.js */ \"./src/auth.js\");\n\r\nconst token = (0,_auth_js__WEBPACK_IMPORTED_MODULE_0__.default)();\r\n\r\nlet button = document.querySelector(\"#submit\");\r\n\r\nbutton.addEventListener('click', function(){\r\n    let firstName = document.querySelector(\"#firstname\").value; //prénom\r\n    let lastName = document.querySelector(\"#lastname\").value; //nom\r\n    let emailName = document.querySelector(\"#email\").value; //email\r\n    let personAdress = document.querySelector(\"#adresse\").value; //adresse\r\n    let messageForm = document.querySelector(\"#message\").value; //message\r\n    \r\n\r\n    fetch ('https://slack.com/api/chat.postMessage',{\r\n        method: 'POST',\r\n    headers: new Headers({\r\n        'Authorization': token,\r\n        'Content-type': 'application/json'\r\n    }),\r\n    body: JSON.stringify({\"channel\":\"C01JQDF93K7\",\"text\":`NOUVEAU CONTACT: \\n\\n Nom:${lastName} \\n Prénom:${firstName} \\n Email: ${emailName} \\n Adresse: ${personAdress} \\n Message: ${messageForm}`})\r\n});\r\n});\r\n\n\n//# sourceURL=webpack://refonte-site-soutenancehtml/./src/slackMsg.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './auth.js'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\nconst token = Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './auth.js'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())();\r\n\r\nlet button = document.querySelector(\"#submit\");\r\n\r\nbutton.addEventListener('click', function(){\r\n    let firstName = document.querySelector(\"#firstname\").value; //prénom\r\n    let lastName = document.querySelector(\"#lastname\").value; //nom\r\n    let emailName = document.querySelector(\"#email\").value; //email\r\n    let personAdress = document.querySelector(\"#adresse\").value; //adresse\r\n    let messageForm = document.querySelector(\"#message\").value; //message\r\n    \r\n\r\n    fetch ('https://slack.com/api/chat.postMessage',{\r\n        method: 'POST',\r\n    headers: new Headers({\r\n        'Authorization': token,\r\n        'Content-type': 'application/json'\r\n    }),\r\n    body: JSON.stringify({\"channel\":\"C01JQDF93K7\",\"text\":`NOUVEAU CONTACT: \\n\\n Nom:${lastName} \\n Prénom:${firstName} \\n Email: ${emailName} \\n Adresse: ${personAdress} \\n Message: ${messageForm}`})\r\n});\r\n});\r\n\n\n//# sourceURL=webpack://refonte-site-soutenancehtml/./src/slackMsg.js?");
 
 /***/ })
 
@@ -77,23 +66,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _aut
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -112,6 +84,5 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _aut
 /******/ 	__webpack_require__("./src/burger.js");
 /******/ 	__webpack_require__("./src/slackMsg.js");
 /******/ 	// This entry module used 'exports' so it can't be inlined
-/******/ 	__webpack_require__("./src/auth.js");
 /******/ })()
 ;
