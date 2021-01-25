@@ -54,11 +54,12 @@
 
                         <p> <input type="email" name="email" id="email" placeholder="&nbsp;Votre E-Mail"></p>
 
+                        <p> <input type="text" name=adresse id="adresse" placeholder="&nbsp;Votre adresse:"> </p>
+
                         <p> <input type="text" name=sujet id="sujet" placeholder="&nbsp;Quel est le sujet ?"> </p>
 
                         <textarea name="message" id="message" maxlength="200"
                             placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Votre messsage (maximum 200 caractères)"></textarea>
-
                         <br>
 
                         <input type="checkbox" id="cdu" name="cdu" unchecked>
