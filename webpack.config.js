@@ -6,7 +6,6 @@ module.exports = {
   './src/apifetch.js',
   './src/burger.js',
   './src/slackMsg.js',
-  'src/auth.js'
   ],
   module: {
     rules: [

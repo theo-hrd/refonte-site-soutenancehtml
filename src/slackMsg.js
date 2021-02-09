@@ -1,4 +1,3 @@
-import getAuth from "./auth.js";
 const token = getAuth();
 
 let button = document.querySelector("#submit");
